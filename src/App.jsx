@@ -37,7 +37,7 @@ function App() {        //function
     <Counter/> */}
     {/* <ControlledName/> */}
     {/* <ControlledInfo/> */}
-    <Changename name={name} onUpdate={()=>setName("KIET MCA")}/>
+    <Changename name={name} onUpdate={()=>setName("KIET MCA c")}/>
     <Changename name={sname} onUpdate={()=>setSName("MCA KIET")}/>
     </>
   );
