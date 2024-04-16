@@ -1,18 +1,20 @@
 //import './App.css'
-import Languages from './component/Languages';
+//import Languages from './component/Languages';
 //  import Msg from './component/Msg';
 //  import { Display } from './component/Msg';
 //import Counter from './component/Counter';
 // import Changename from "./component/Changename";
 //import ControlledInfo from './component/ControlledInfo';
-import ControlledName from './component/ControlledName';
-import { useState } from 'react';
-import Changename from './component/Changename';
+// import ControlledName from './component/ControlledName';
+// import { useState } from 'react';
+// import Changename from './component/Changename';
+// import MyCounter from './component/MyCounter';
+import MyCard from "./component/MyCard";
 
 function App() {        //function
-   const [count,setCount]=useState(0)
-   const [name,setName]=useState("KIET");
-   const [sname,setSName]=useState("MCA");
+//    const [count,setCount]=useState(0)
+//    const [name,setName]=useState("KIET");
+//    const [sname,setSName]=useState("MCA");
 
   
   // return (
@@ -37,8 +39,10 @@ function App() {        //function
     <Counter/> */}
     {/* <ControlledName/> */}
     {/* <ControlledInfo/> */}
-    <Changename name={name} onUpdate={()=>setName("KIET MCA c")}/>
-    <Changename name={sname} onUpdate={()=>setSName("MCA KIET")}/>
+    {/* <Changename name={name} onUpdate={()=>setName("KIET MCA")}/>
+    <Changename name={sname} onUpdate={()=>setSName("MCA KIET")}/> */}
+    {/* <MyCounter/> */}
+    <MyCard/>
     </>
   );
 }
